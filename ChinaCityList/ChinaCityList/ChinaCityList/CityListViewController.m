@@ -48,11 +48,11 @@
     self = [super init];
     if (self) {
         // Custom initialization
-        self.arrayHotCity = [NSMutableArray arrayWithObjects:@"广州",@"北京",@"天津",@"厦门",@"重庆",@"福州",@"泉州",@"济南",@"深圳",@"长沙",@"无锡", nil];
+        self.arrayHotCity = [NSMutableArray array];
         
-        self.arrayHistoricalCity = [NSMutableArray arrayWithObjects:@"福州",@"厦门",@"泉州", nil];
+        self.arrayHistoricalCity = [NSMutableArray array];
         
-        self.arrayLocatingCity   = [NSMutableArray arrayWithObjects:@"福州", nil];
+        self.arrayLocatingCity   = [NSMutableArray array];
         self.keys = [NSMutableArray array];
         self.arrayCitys = [NSMutableArray array];
     }
